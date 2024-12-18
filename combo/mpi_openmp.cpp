@@ -294,8 +294,8 @@ int main(int argc, char** argv) {
     if (argc == 4) {
         delta = std::atof(argv[3]);
     } else if (argc == 3) {
-        if (N * M > 6000) delta = 2 * 1e-7;
-        if (N * M > 10000) delta = 2.25 * 1e-8;
+        if (N * M > 6000) delta = 2.5 * 1e-7;
+        if (N * M > 10000) delta = 2.5 * 1e-7;
     }
 
     if (terminate_signal == 1) {
