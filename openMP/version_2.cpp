@@ -261,9 +261,9 @@ int main (int argc, char **argv) {
     }
     else if (argc == 3){   
         if (N*M>6000)
-            delta = 2*1e-7;
+            delta = 2.5 * 1e-7;
         if (N*M>10000)
-            delta = 1.8 * 1e-8;
+            delta = 2.5 * 1e-7;
     }   
     else{
         printf("worng arg count %d", argc);
